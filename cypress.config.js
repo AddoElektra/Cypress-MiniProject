@@ -14,4 +14,6 @@ module.exports = defineConfig({
   env: {
     BASE_URL: 'http://localhost:3000', // replace with your URL
   },
+  retries:4,
 });
+   

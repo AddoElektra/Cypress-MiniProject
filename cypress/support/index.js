@@ -16,3 +16,5 @@ export function configureEnvironment(env) {
 
 import './commands';
 import 'cypress-file-upload/commands';
+
+module.exports = { video: true }
