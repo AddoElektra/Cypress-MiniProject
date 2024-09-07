@@ -1,0 +1,24 @@
+{
+  "name": "milestone3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private":"true",
+  "scripts": {
+    "start": "serve -s -l 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cypress/react": "^8.0.2",
+    "cypress": "^13.14.2",
+    "dotenv": "^16.4.5",
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
